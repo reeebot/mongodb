@@ -10,5 +10,4 @@ mongo.connect(url, function(err, db) {
     collection.remove(id, function (err, data){
         if (err) throw err;
         db.close();})
-    db.close();
 })
